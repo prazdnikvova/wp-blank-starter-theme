@@ -1,0 +1,96 @@
+/*
+Theme Name: Blank
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}body{line-height:1}button{outline:0}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}q{display:inline;font-style:italic}q:before{content:'"';font-style:normal}q:after{content:'"';font-style:normal}textarea,input[type="text"],input[type="button"],input[type="submit"],input[type="reset"],input[type="search"],input[type="password"]{-webkit-appearance:none;appearance:none;border-radius:0}table{border-collapse:collapse;border-spacing:0}th,td{padding:2px}big{font-size:120%}small,sup,sub{font-size:80%}sup{vertical-align:super}sub{vertical-align:sub}dd{margin-left:20px}kbd,tt{font-family:courier;font-size:12px}ins{text-decoration:underline}del,strike,s{text-decoration:line-through}dt{font-weight:bold}address,cite,var{font-style:italic}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
+
+.margin-50 {
+  height: 50px;
+  width: 100%;
+  background: #fff;
+}
+
+.margin-100 {
+  height: 100px;
+  width: 100%;
+  background: #fff;
+}
+
+.margin-150 {
+  height: 150px;
+  width: 100%;
+  background: #fff;
+}
+
+.margin-200 {
+  height: 200px;
+  width: 100%;
+  background: #fff;
+}
+
+.margin-250 {
+  height: 250px;
+  width: 100%;
+  background: #fff;
+}
+
+.margin-300 {
+  height: 300px;
+  width: 100%;
+  background: #fff;
+}
+
+.margin-350 {
+  height: 350px;
+  width: 100%;
+  background: #fff;
+}
+
+.margin-400 {
+  height: 400px;
+  width: 100%;
+  background: #fff;
+}
+
+@media (max-width: 1024px) {
+  .margin-50 {
+    height: 25px;
+    width: 100%;
+  }
+  
+  .margin-100 {
+    height: 50px;
+    width: 100%;
+  }
+  
+  .margin-150 {
+    height: 75px;
+    width: 100%;
+  }
+  
+  .margin-200 {
+    height: 100px;
+    width: 100%;
+  }
+  
+  .margin-250 {
+    height: 125px;
+    width: 100%;
+  }
+  
+  .margin-300 {
+    height: 150px;
+    width: 100%;
+  }
+  
+  .margin-350 {
+    height: 175px;
+    width: 100%;
+  }
+  
+  .margin-400 {
+    height: 200px;
+    width: 100%;
+  }
+}
