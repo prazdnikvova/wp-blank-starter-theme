@@ -1,0 +1,24 @@
+$quality: #00c178;
+$research: #02947f;
+$diagnostics: #3bdfca;
+$general: #37414d;
+$white: #eceef0;
+
+$color-1: rgba(0, 0, 0, 0);
+$color-2: #37414d;
+$color-3: #02947f;
+$color-4: #00c178;
+$color-5: #3bdfca;
+$color-6: #eceef0;
+$color-7: #cef363;
+$text-color-blac: #37373c;
+$white-text: #ffffff;
+$btn-bg: #c6005c;
+
+@import "basic-styles.scss";
+@import "text-styles.scss";
+
+@import "oll-bloks.scss";
+@import "page-color.scss";
+@import "cta-blocks.scss";
+@import "slider-blocks.scss";

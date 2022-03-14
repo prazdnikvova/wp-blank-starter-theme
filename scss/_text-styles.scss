@@ -1,0 +1,287 @@
+
+body{
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+  background-color: #0f1923;
+  text-align: justify;
+}
+
+ul, ol{
+  font-size: 18px;
+  line-height: 1.22;
+  margin-bottom: 20px;
+  padding-left: 27px;
+}
+
+ul{
+  list-style-type: disc;
+}
+
+ol{
+  list-style-type: decimal;
+}
+
+ul li, ol li{
+  margin-bottom: 5px;
+}
+
+ h1, .h1{
+   font-family: Intro;
+   font-size: 40px;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #ffffff;
+   margin-bottom: 16px;
+ }
+
+ h2, .h2{
+   font-family: Intro;
+   font-size: 32px;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #ffffff;
+   margin-bottom: 16px;
+ }
+
+h3, .h3{
+    font-family: Intro;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 16px;
+ }
+
+ h4, .h4{
+   font-family: Intro;
+   font-size: 24px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #ffffff;
+   margin-bottom: 16px;
+ }
+
+ h5, .h5{
+   font-family: Intro;
+   font-size: 20px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #ffffff;
+   margin-bottom: 16px;
+ }
+
+ h6, .h6{
+   font-family: Intro;
+   font-size: 18px;
+   font-weight: normal;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #ffffff;
+   margin-bottom: 16px;
+ }
+
+ p{
+   margin-bottom: 16px;
+ }
+
+ .display-1{
+   font-family: Intro;
+   font-size: 96px;
+   font-weight: bold;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   color: #ffffff;
+   margin-bottom: 12px;
+   @media (max-width: 991px) {
+      font-size: 66px;
+      line-height: 1.12;
+   }
+ }
+
+.display-2{
+  font-family: Intro;
+  font-size: 88px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 12px;
+  @media (max-width: 991px) {
+     font-size: 58px;
+     line-height: 1.14;
+  }
+ }
+
+ .display-3{
+    font-family: Intro;
+    font-size: 72px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 12px;
+    @media (max-width: 991px) {
+       font-size: 48px;
+       line-height: 1.17;
+    }
+ }
+
+ .display-4{
+    font-family: Intro;
+    font-size: 56px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 12px;
+    @media (max-width: 991px) {
+       font-size: 40px;
+       line-height: 1.2;
+    }
+ }
+
+
+.has-large-font-size,
+.has-medium-font-size{
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.has-small-font-size{
+    line-height: 1.85;
+}
+
+em{
+  font-style: italic;
+}
+
+strong{
+  font-weight: bold;
+}
+
+.wp-block-button__link{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wp-block-quote{
+  padding: 50px 5px;
+  margin: 0 auto;
+  width: 66.666667%;
+  @media (max-width: 575px) {
+    width: 100%;
+  }
+  &::before{
+    content: ' ';
+    height: 174px;
+    display: block;
+    background-image: url("../../img/block-quote-img.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    @media (max-width: 767px) {
+      height: 144px;
+    }
+  }
+  & p{
+    margin: auto;
+    font-family: Intro;
+    font-size: 56px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 12px;
+    padding-bottom: 50px;
+    @media (max-width: 991px) {
+       font-size: 40px;
+       line-height: 1.2;
+    }
+    @media (max-width: 767px) {
+      padding-bottom: 40px;
+    }
+    @media (max-width: 576px) {
+      padding-bottom: 25px;
+    }
+  }
+  & cite{
+    max-width: 540px;
+    font-family: Intro;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eceef0;
+  }
+}
+
+.wp-block-advanced-bootstrap-blocks-column {
+  &.color-border-top {
+    padding-top: 38px;
+    &::before{
+      position: absolute;
+      right: 15px;
+      left: 15px;
+      top: 0;
+      height: 2px;
+      content: ' ';
+    }
+  }
+  &.color-border-left{
+    &::before{
+      position: absolute;
+      left: -20px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      content: ' ';
+    }
+  }
+  &.color-border-right{
+    &::before{
+      position: absolute;
+      right: -20px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      content: ' ';
+    }
+  }
+  &.col-lg-auto, .col-md-auto, .col-sm-auto, .col-xl-auto, .col-auto {
+    margin: 0 auto;
+  }
+}

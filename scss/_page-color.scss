@@ -1,0 +1,286 @@
+
+
+.page-color.color-1{
+  & .wp-block-button .wp-block-button__link{
+
+  }
+}
+
+.page-color{
+  &.color-1{
+    & .wp-block-button .wp-block-button__link{
+      background: $btn-bg;
+      color: $white-text;
+    }
+    & p > a{
+      color: $white-text;
+    }
+    & .wp-block-separator{
+      border-color: $color-4;
+    }
+    & .color-border-top::before, .color-border-left::before, .color-border-right::before{
+      background-color: $white-text;
+    }
+    & .wp-block-quote{
+      & p{
+        color: $color-4;
+      }
+    }
+  }
+  &.color-2{
+    & .wp-block-button .wp-block-button__link{
+      background: $color-2;
+      color: $white-text;
+    }
+    & p > a{
+      color: $color-2;
+    }
+    & .wp-block-separator{
+      border-color: $color-2;
+    }
+    & .color-border-top::before, .color-border-left::before, .color-border-right::before{
+      background-color: $color-2;
+    }
+    & .wp-block-quote{
+      & p{
+        color: $color-2;
+      }
+    }
+  }
+  &.color-3{
+    & .wp-block-button .wp-block-button__link{
+      background: $color-3;
+      color: $white-text;
+    }
+    & p > a{
+      color: $color-3;
+    }
+    & .wp-block-separator{
+      border-color: $color-3;
+    }
+    & .color-border-top::before, .color-border-left::before, .color-border-right::before{
+      background-color: $color-3;
+    }
+    & .wp-block-quote{
+      & p{
+        color: $color-3;
+      }
+    }
+  }
+  &.color-4{
+    & .wp-block-button .wp-block-button__link{
+      background: $color-4;
+      color: $white-text;
+    }
+    & p > a{
+      color: $color-4;
+    }
+    & .wp-block-separator{
+      border-color: $color-4;
+    }
+    & .color-border-top::before, .color-border-left::before, .color-border-right::before{
+      background-color: $color-4;
+    }
+    & .wp-block-quote{
+      & p{
+        color: $color-4;
+      }
+    }
+  }
+  &.color-5{
+    & .wp-block-button .wp-block-button__link{
+      background: $color-5;
+      color: $white-text;
+    }
+    & p > a{
+      color: $color-5;
+    }
+    & .wp-block-separator{
+      border-color: $color-5;
+    }
+    & .color-border-top::before, .color-border-left::before, .color-border-right::before{
+      background-color: $color-5;
+    }
+    & .wp-block-quote{
+      & p{
+        color: $color-5;
+      }
+    }
+  }
+  &.color-6{
+    & .wp-block-button .wp-block-button__link{
+      background: $color-6;
+      color: $text-color-blac;
+    }
+    & p > a{
+      color: $color-6;
+    }
+    & .wp-block-separator{
+      border-color: $color-6;
+    }
+    & .color-border-top::before, .color-border-left::before, .color-border-right::before{
+      background-color: $color-6;
+    }
+    & .wp-block-quote{
+      & p{
+        color: $color-6;
+      }
+    }
+  }
+  &.color-7{
+    & .wp-block-button .wp-block-button__link{
+      background: $color-7;
+      color: $text-color-blac;
+    }
+    & p > a{
+      color: $color-7;
+    }
+    & .wp-block-separator{
+      border-color: $color-7;
+    }
+    & .color-border-top::before, .color-border-left::before, .color-border-right::before{
+      background-color: $color-7;
+    }
+    & .wp-block-quote{
+      & p{
+        color: $color-7;
+      }
+    }
+  }
+  &.color-1{
+    & .block{
+      & .text{
+      & .text{
+        & h1,h2,h3,h4,h5,h6{
+        }
+      }
+    }
+  }
+}
+}
+
+.page-color,
+.page-color.color-1,
+.page-color.color-2,
+.page-color.color-3,
+.page-color.color-4,
+.page-color.color-5,
+.page-color.color-6,
+.page-color.color-7{
+  & .is-style-color-1{
+  }
+  & .is-style-color-2{
+    color: $color-2;
+    & a.wp-block-button__link{
+      background-color: $color-2;
+      color: $white-text;
+    }
+    &.wp-block-quote p{
+      color: $color-2;
+    }
+    &.wp-block-advanced-bootstrap-blocks-column{
+      color: $white-text;
+      &::before{
+        background-color: $color-2;
+      }
+      & a{
+        color: $color-2;
+      }
+    }
+  }
+  & .is-style-color-3{
+    color: $color-3;
+    & a.wp-block-button__link{
+      background-color: $color-3;
+      color: $white-text;
+    }
+    &.wp-block-quote p{
+      color: $color-3;
+    }
+    &.wp-block-advanced-bootstrap-blocks-column{
+      color: $white-text;
+      &::before{
+        background-color: $color-3;
+      }
+      & a{
+        color: $color-3;
+      }
+    }
+  }
+  & .is-style-color-4{
+    color: $color-4;
+    & a.wp-block-button__link{
+      background-color: $color-4;
+      color: $white-text;
+    }
+    &.wp-block-quote p{
+      color: $color-4;
+    }
+    &.wp-block-advanced-bootstrap-blocks-column{
+      color: $white-text;
+      &::before{
+        background-color: $color-4;
+      }
+      & a{
+        color: $color-4;
+      }
+    }
+  }
+  & .is-style-color-5{
+    color: $color-5;
+    & a.wp-block-button__link{
+      background-color: $color-5;
+      color: $white-text;
+    }
+    &.wp-block-quote p{
+      color: $color-5;
+    }
+    &.wp-block-advanced-bootstrap-blocks-column{
+      color: $white-text;
+      &::before{
+        background-color: $color-5;
+      }
+      & a{
+        color: $color-5;
+      }
+    }
+  }
+  & .is-style-color-6{
+    color: $color-6;
+    & a.wp-block-button__link{
+      background-color: $color-6;
+      color: $text-color-blac;
+    }
+    &.wp-block-quote p{
+      color: $color-6;
+    }
+    &.wp-block-advanced-bootstrap-blocks-column{
+      color: $white-text;
+      &::before{
+        background-color: $color-6;
+      }
+      & a{
+        color: $color-6;
+      }
+    }
+  }
+  & .is-style-color-7{
+    color: $color-7;
+    & a.wp-block-button__link{
+      background-color: $color-7;
+      color: $text-color-blac;
+    }
+    &.wp-block-quote p{
+      color: $color-7;
+    }
+    &.wp-block-advanced-bootstrap-blocks-column{
+      color: $white-text;
+      &::before{
+        background-color: $color-7;
+      }
+      & a{
+        color: $color-7;
+      }
+    }
+  }
+}

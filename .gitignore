@@ -1,0 +1,14 @@
+# Third-party assets are not committed: copy Bootstrap grid CSS and slick by hand
+css/bootstrap-grid.css
+css/bootstrap-grid.min.css
+js/slick/
+
+# Compiled SCSS, caches and logs
+css/compiled/
+.sass-cache/
+*.log
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

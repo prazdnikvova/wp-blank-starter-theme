@@ -1,0 +1,122 @@
+
+.hero{
+  padding: 50px 0;
+  @media (max-width: 767px) {
+    padding: 50px 0;
+    max-width: 500px;
+    margin: auto;
+  }
+  & .hero-right{
+    flex-direction: row-reverse;
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+  }
+  & .hero-img{
+    position: relative;
+    @media (max-width: 767px) {
+      min-height: 311px;
+    }
+    & .hero-img-content{
+      position: absolute;
+      top: 0;
+      right: 15px;
+      left: 15px;
+      bottom: 0;
+      & img{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  & .hero-tag{
+    padding: 23px 0 47px;
+    @media (max-width: 991px) {
+      padding: 17px 0;
+    }
+    @media (max-width: 767px) {
+      padding: 44px 0 17px;
+    }
+    & .tag{
+      padding: 5px 8px 6px 5px;
+      line-height: 0.67;
+    }
+  }
+  & .hero-text{
+    position: relative;
+    padding-bottom: 72px;
+    @media (max-width: 991px) {
+      padding-bottom: 58px;
+    }
+    @media (max-width: 767px) {
+      padding-bottom: 0;
+    }
+    & h2{
+      @media (max-width: 991px) {
+        margin-bottom: 23px;
+      }
+    }
+  }
+  & .hero-link{
+    position: absolute;
+    bottom: 0;
+    @media (max-width: 767px) {
+      position: relative;
+    }
+  }
+  & .btn{
+    margin-top: 38px;
+    @media (max-width: 991px) {
+      margin-top: 20px;
+    }
+    @media (max-width: 767px) {
+      margin-top: 26px;
+    }
+  }
+}
+.features_list{
+  padding: 50px 0;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #6c757d;
+  text-align: left;
+  & h2{
+    margin-bottom: 25px;
+  }
+  & .features_list-article{
+    padding: 25px 15px;
+  }
+}
+
+.large_quote{
+  padding: 50px 0;
+  & .large_quote-img{
+    padding-bottom: 90px;
+    & img{
+      padding: 0 6px;
+    }
+    @media (max-width: 767px) {
+      padding-bottom: 60px;
+    }
+  }
+  & .large_quote-text{
+    padding-top: 50px;
+    font-family: Intro;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eceef0;
+    @media (max-width: 767px) {
+      padding-top: 40px;
+    }
+    @media (max-width: 576px) {
+      padding-top: 25px;
+    }
+  }
+
+}

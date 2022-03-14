@@ -1,0 +1,153 @@
+
+.cta-block{
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+
+  & .cta-text{
+    text-align: center;
+
+    & .cta-text-name{
+      text-align: center;
+    }
+
+    & .cta-text-content{
+      margin-top: 30px;
+      font-family: AvenirNext;
+      font-size: 20px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.2;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+    & .btn{
+      margin-top: 14px;
+    }
+  }
+}
+
+.cta-block.cta-block-img{
+  min-height: 1px;
+  padding: 0;
+  margin: 50px 0;
+  position: relative;
+  & .cta-text{
+    min-height: 551px;
+    text-align: left;
+    @media (max-width: 991px) {
+      min-height: 418px;
+    }
+    @media (max-width: 575px) {
+      flex-direction: column-reverse;
+    }
+    & .cta-text-name{
+      text-align: left;
+      & .cta-content{
+        margin-left: -30px;
+        padding: 62px 0 58px;
+        @media (max-width: 575px) {
+          margin-left: 0;
+          padding: 47px 23px 40px 26px;
+          .btn {
+            margin-top: 51px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.cta-text-img{
+  position: relative;
+  @media (max-width: 575px) {
+    height: 206px;
+  }
+  & img{
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    @media (max-width: 991px) {
+      right: 15px;
+      bottom: 0;
+    }
+    @media (max-width: 575px) {
+      right: 15px;
+      top: 0;
+      bottom: auto;
+    }
+  }
+}
+
+.cta-block.cta-block-extra{
+  padding: 87px 0 79px;
+  display: flex;
+  align-items: center;
+  min-height: 426px;
+}
+
+.page-color{
+  & .color-1{
+    &.cta-block{
+      background: $color-1;
+      color: $white;
+    }
+  }
+  & .color-2{
+    &.cta-block{
+      background: $color-2;
+      color: $white;
+    }
+  }
+  & .color-3{
+    &.cta-block{
+      background: $color-3;
+      color: $white;
+    }
+  }
+  & .color-4{
+    &.cta-block{
+      background: $color-4;
+      color: $white;
+    }
+  }
+  & .color-5{
+    &.cta-block{
+      background: $color-5;
+      color: $white;
+    }
+  }
+  & .color-6{
+    &.cta-block{
+      background: $color-6;
+      color: $text-color-blac;
+      & .cta-text-name{
+        color: $text-color-blac;
+      }
+      & .cta-text-content{
+        color: $text-color-blac;
+        & h1,h2,h3,h4,h5,h6{
+          color: $text-color-blac;
+        }
+      }
+    }
+  }
+  & .color-7{
+    &.cta-block{
+      background: $color-7;
+      color: $text-color-blac;
+      & .cta-text-name{
+        color: $text-color-blac;
+      }
+      & .cta-text-content{
+        color: $text-color-blac;
+        & h1,h2,h3,h4,h5,h6{
+          color: $text-color-blac;
+        }
+      }
+    }
+  }
+}

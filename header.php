@@ -8,7 +8,17 @@
 </head>
 <body <?php body_class(); ?>>
 	<header id="header">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a>
-		<?php get_search_form(); ?>
-		<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+		<div class="header-logo">
+			<img src="https://example.com/wp-content/uploads/logo.png" alt="">
+		</div>
+		<div class="header-navigation">
+				<nav>
+						<?php wp_nav_menu(array(
+								'theme_location' => 'menu_header',
+								'menu_class' => 'menu menu_top',
+						)); ?>
+				</nav>
+		</div>
+		<div class="clearfix"></div>
 	</header>
+	<main>

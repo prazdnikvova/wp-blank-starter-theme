@@ -91,10 +91,12 @@ function blank_load_scripts() {
 	wp_deregister_script( 'jquery' );
 	wp_register_script( 'jquery', includes_url( '/js/jquery/jquery.js' ), false, NULL, true );
 	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script('file_2', get_template_directory_uri() . '/js/slick/slick.min.js', array('jquery'), null, true);
 	wp_enqueue_script('custom', get_template_directory_uri() . '/js/custom.js', array('jquery'), $include_version, true );
 
 	wp_enqueue_style('bootstrap-grid', get_template_directory_uri() . '/css/bootstrap-grid.min.css', array(), $include_version, 'all');
 	wp_enqueue_style( 'blank-style', get_stylesheet_uri(), array(), $include_version );
+	wp_enqueue_style( 'blank-compiled', get_template_directory_uri() . '/css/compiled/main.css', array(), $include_version, 'all');
 }
 
 add_action( 'get_footer', 'blank_load_style' );
@@ -112,6 +114,18 @@ function admin_style() {
 }
 add_action('admin_enqueue_scripts', 'admin_style');
 
+function be_gutenberg_scripts() {
+
+	wp_enqueue_script(
+		'be-editor', 
+		get_stylesheet_directory_uri() . '/js/editor.js', 
+		array( 'wp-blocks', 'wp-dom' ), 
+		filemtime( get_stylesheet_directory() . '/js/editor.js' ),
+		true
+	);
+}
+add_action( 'enqueue_block_editor_assets', 'be_gutenberg_scripts' );
+
 if (function_exists('acf_add_options_page')) {
     acf_add_options_page(array(
         'page_title' => 'Theme General Settings',
@@ -126,3 +140,10 @@ if (function_exists('acf_add_options_page')) {
 include_once 'blocks/register.php';
 
 include_once 'contact/index.php';
+
+//--------------------------------------------------------------------
+//Добавление произвольного меню
+register_nav_menus(array(
+    'menu_header' => __('Menu header'),
+));
+//--------------------------------------------------------------------
